@@ -1,0 +1,9 @@
+-Main page / project list page
+-about me page
+
+projects:
+-all UCSIM stuff
+-Marooned
+-Space Collector
+-network game dev project
+-REMOTE AFISO
