@@ -14,8 +14,12 @@ header{
     font-size: 20px;
 }
 
-.name{
-    padding: 0%;
+p{
+    font-size: 22px;
+}
+
+.album{
+    align-content: center;
 }
 
 .pagetitle{
@@ -24,4 +28,16 @@ header{
 
 .mywork{
     font-size: 25px;
+}
+
+.project-card{
+    background: #FFFFFF;
+    max-width: 60%;
+
+    margin: auto;
+}
+
+.card-img{
+    max-width: 100%;
+    height: auto;
 }
