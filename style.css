@@ -32,7 +32,7 @@ p{
 }
 
 .project-card{
-    background-color: #ffffff;
+    background-color: inherit;
     max-width: 60%;
 
     margin: auto;
@@ -46,11 +46,16 @@ p{
 .project-card-title{
     
     background-color: inherit;
-    font-size: 40px;
+    font-size: 35px;
     margin: auto;
 }
 
 .card-img{
-    max-width: 100%;
+    max-width: 95%;
     height: auto;
+
+    margin: 2%;
+
+    border: 3px solid #000000;
+    border-radius: 5px;
 }
