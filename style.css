@@ -1,12 +1,12 @@
 *{
-    background-color: #252525;
-    color: #FFFFFF;
+    background: #F8F9FA;
+    color: #000000;
     
     font-family: monospace;
 }
 
 header{
-    border: 3px solid #1f8f1f;
+    border: 3px solid #000000;
     border-radius: 5px;
     box-shadow: 0px 0px 15px 3px #000000;
 
@@ -24,7 +24,7 @@ p{
 
 .pagetitle{
     font-size: 30px;
-    border-bottom: 3px solid #8f8f8f;
+    border-bottom: 3px solid #4d4d4d;
 }
 
 .mywork{
@@ -32,13 +32,13 @@ p{
 }
 
 .project-card{
-    background-color: #161616;
+    background-color: #ffffff;
     max-width: 60%;
 
     margin: auto;
     margin-bottom: 5%;
 
-    border: 3px solid #8f8f8f;
+    border: 3px solid #232323;
     border-radius: 5px;
     box-shadow: 5px 5px 15px 5px #000000;
 }
