@@ -6,7 +6,7 @@
 }
 
 header{
-    border: 3px solid #33E232;
+    border: 3px solid #1f8f1f;
     border-radius: 5px;
     box-shadow: 0px 0px 15px 3px #000000;
 
@@ -24,6 +24,7 @@ p{
 
 .pagetitle{
     font-size: 30px;
+    border-bottom: 3px solid #8f8f8f;
 }
 
 .mywork{
@@ -31,9 +32,21 @@ p{
 }
 
 .project-card{
-    background: #FFFFFF;
+    background-color: #161616;
     max-width: 60%;
 
+    margin: auto;
+    margin-bottom: 5%;
+
+    border: 3px solid #8f8f8f;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.project-card-title{
+    
+    background-color: inherit;
+    font-size: 40px;
     margin: auto;
 }
 
