@@ -50,6 +50,10 @@ p{
     margin: auto;
 }
 
+.project-card-subtitle{
+    font-size: 25px;
+}
+
 .card-img{
     max-width: 95%;
     height: auto;
@@ -58,4 +62,24 @@ p{
 
     border: 3px solid #000000;
     border-radius: 5px;
+
+    
 }
+
+.card-link:link{
+    opacity: 1;
+    transition: opacity .2s ease-in-out;
+}
+
+.card-link:hover{
+    opacity: .6;
+    transition: opacity .2s ease-in-out;
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
