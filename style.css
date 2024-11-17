@@ -13,8 +13,7 @@ header{
     text-align: center;
     font-size: 20px;
 
-    background-image: url("");
-    background-position: center;
+    /* background-position: center; */
 }
 
 footer{
@@ -35,6 +34,12 @@ p{
 
 .pagetitle{
     font-size: 30px;
+}
+
+.pagesubtitle{
+    font-size: 20px;
+    margin-bottom: 50px;
+    
     border-bottom: 3px solid #4d4d4d;
 }
 
@@ -114,4 +119,18 @@ p{
 
 .text-dark{
     color: #000000;
+}
+
+.img-small{
+    max-width: 30%;
+    height: auto;
+}
+
+.img-medium{
+    max-width: 40%;
+    height: auto;
+}
+
+.transparent{
+    background-color: transparent;
 }
