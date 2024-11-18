@@ -57,7 +57,10 @@ p{
 
 .project-card{
     background-color: inherit;
-    max-width: 60%;
+    width: 50%;
+    height:auto;
+
+    padding: 0;
 
     margin: auto;
     margin-bottom: 5%;
@@ -114,9 +117,9 @@ p{
 
 .centered {
     position:absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
-    transform: translate(-50%, -250%);
+    transform: translate(-50%, -50%);
   }
 
 .faded
@@ -154,5 +157,9 @@ p{
     display:inline-block;
 
     margin-bottom: 5%
+}
+
+.rounded-img{
+    border-radius: 5px;
 }
 
