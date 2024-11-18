@@ -89,8 +89,8 @@ p{
 }
 
 .card-img{
-    max-width: 95%;
-    height: auto;
+    max-height: 95%;
+    width: 95%;
 
     margin: 2%;
 
