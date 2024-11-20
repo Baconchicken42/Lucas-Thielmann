@@ -18,6 +18,10 @@ body{
     display:block;
 }
 
+p a{
+    color: blue;
+}
+
 footer{
     background-color: #f0efef;
     font-size: larger;
@@ -161,4 +165,5 @@ p{
 .rounded-img{
     border-radius: 5px;
 }
+
 

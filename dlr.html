@@ -31,8 +31,8 @@
         the Remote Tower Center itself. The goal of this project was to develop a prototype of a low-cost VR version for use 
         by Aerodrome Flight Information Service Officers (AFISOs) at smaller airports. An AFISO differs from an ATC in that they 
         do not provide takeoff clearance, but weather and hazard information, so the Remote AFISO Workplace would only need to 
-        keep track of incoming/outgoing flights, and have a view of the airport. My colleague performed a 
-        <a href="PDFs/DLR/Remote VR Tower.pdf" style="color:blue">research study</a> 
+        keep track of incoming/outgoing flights, and have a view of the airport. My colleague, Julia Schön, performed a 
+        <a href="PDFs/DLR/Remote VR Tower.pdf">research study</a> 
         using the finished prototype to determine the viability of such a system.
     </p>
     </div>
@@ -51,6 +51,49 @@
             it in the direction the user was looking. Initially the PTZ was only controllable through the keyboard.
         </p>
     </div>
+
+    <div class="row">
+        <img src="images/DLR/workspace.PNG" 
+            alt="DLR Logo" 
+            style="float: right; margin-left: 30px;" 
+            class="img-medium rounded-img">
+        <h2>Hand Tracking</h2>
+        <p> My first major goal on the project was to move away from the keyboard controls, implementing both controller 
+            support and hand tracking. 
+            <br><br>
+            I experimented quite a bit with the control scheme, and ultimately landed on a setup where the user holds a 
+            VR controller in one hand to control the PTZ, and uses the other hand to control the UI via hand tracking.
+            <br><br>
+            The controller retained the one-click functionality from before, and I used the directional-pad to allow for 
+            more precise adjustments of the camera.
+            <br><br>
+            For the hand tracking, I used a <a href="https://www.ultraleap.com/">LeapMotion</a> mounted on the front of the 
+            headset. I used the Ultraleap SDK for Unity to implement buttons and grabbables that could be interacted with 
+            through the LeapMotion. 
+        </p>
+    </div>
+
+    <div class="row">
+        <img src="images/DLR/UI.PNG" 
+            alt="DLR Logo" 
+            style="float: left; margin-right: 30px;" 
+            class="img-medium rounded-img">
+        <h2>User Interface</h2>
+        <p> The UI was conceptualized by my colleague to be a series of panels which the user could grab and place in the 
+            environment wherever was most comfortable for them. The panels could also be "minimized" using a menu bar.
+            <br><br>
+            I implemented her designs in Unity and added functionality. Most panels were just for show outside of having 
+            pressable buttons, but for the Flight Management panel I developed a system that would allow the user to make 
+            add/edit/delete flights, which would then be dynamically populated depending on which of 3 filters were applied.
+        </p>
+    </div>
+
+    <iframe 
+    src="https://api.screen9.com/embed/suHtsfPWQP2P7TJ754HC7YpcN1JFj800ef7YTJo6sNlh70DP9wMfDyyr4c8Uj7UZ"
+     width="100%"
+     height="600px"
+     allowfullscreen
+     style="margin-bottom: 30px;"></iframe>
 
 </div>
 </body>
