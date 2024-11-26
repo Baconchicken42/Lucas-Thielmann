@@ -3,24 +3,89 @@
 <link rel="stylesheet" type="text/css" href="./style.css" />
 
 
-<header>
-    <h1 style="background-color: transparent;">Lucas Thielmann</h1>
-    <h2 style="background-color: transparent;">
-        <a href="index.html" style="background-color: inherit;">Work</a> | <a href="about.html" style="background-color: inherit;">About Me</a>
+<header style="background-image: url(images/SpaceCollector/radiation.jpg); background-position: center;">
+    <h1 style="background-color: transparent;" class="text-light">Lucas Thielmann</h1>
+    <h2 style="background-color: transparent;" class="text-light">
+        <a href="index.html" style="background-color: inherit;" class="text-light">Work</a> | <a href="about.html" style="background-color: inherit;" class="text-light">About Me</a>
     </h2>
 </header>
 
 <h2 class="pagetitle">Space Collector</h2>
 <h3 class="pagesubtitle">Subtitle text</h3>
 
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-     when an unknown printer took a galley of type and scrambled it to make a type
-      specimen book. It has survived not only five centuries, but also the leap into
-       electronic typesetting, remaining essentially unchanged. It was popularised
-        in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-         passages, and more recently with desktop publishing software like Aldus
-          PageMaker including versions of Lorem Ipsum.</p>
+<div style="padding-left: 10%; padding-right: 10%;">
+    <div class="row">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/N7Wj1x-ZV10?si=2D-0LjJPDREap_AR"
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen
+        style="float: right; margin-left: 30px;"></iframe>
+
+        <p>Space Collector is a web-based 2D edutainment game I developed in a group of 5 for my senior capstone project. 
+            <br><br>
+            In the game, players explore 3 open-ended levels with the goal of mining resources from asteroids.
+            <br><br>
+            On this project, I took the role of Lead Programmer, as well as level designer and UI designer.
+            <br><br>
+            Play the game on itch.io <a href="https://ucgroup19-2024.itch.io/space-collector">here</a>.
+        </p>
+    </div>
+
+    <div class="img-row">
+        <div class="img-column">
+            <img src="images/SpaceCollector/space1.jpg">
+            <img src="images/SpaceCollector/space2.jpg">
+            <img src="images/SpaceCollector/space3.jpg">
+        </div>
+
+        <div class="img-column">
+            <img src="images/SpaceCollector/mining.jpg">
+            <img src="images/SpaceCollector/popup.jpg">
+            <img src="images/SpaceCollector/mining2.jpg">
+        </div>          
+    </div>
+
+    <div class="row">
+        <img src="images/SpaceCollector/spacegif1.webp" 
+        alt="" 
+        style="float: left; margin-right: 30px;" 
+        class="img-medium rounded-img">
+        
+        <h2>Design</h2>
+        <p> 
+            The main gameplay loop of Space Collector involves exploring and mining. When the player mines a bonus 
+            mineral deposit, a quick space fact appears on screen with a link to another web page with more information.
+            <br><br>
+            We specifically chose to deploy the game through WebGL so that it could be played on any device without 
+            having to download files, making it easier to implement in a classroom.
+            <br><br>
+            The game is intended to be accessible to players who do not have lots of game literacy. The difficulty is 
+            generally kept low, but mining bonus asteroids can be more challenging.
+        </p>
+    </div>
+
+    <div class="row">
+        <img src="images/SpaceCollector/space2.jpg" 
+        alt="" 
+        style="float: right; margin-left: 30px;" 
+        class="img-medium rounded-img">
+        
+        <h2>Player Movement</h2>
+        <p> 
+            As lead programmer, I was responsible for designing and implementing the movement mechanics. The movement is 
+            largely based off of Asteroids, with the exception that the player's momentum is preserved indefinitely, rather 
+            than magically slowing down when the thrusters are inactive.
+            <br><br>
+            This created some problems with difficulty, so to reduce that I added a "brake" input that automatically fires 
+            thrusters to bring the player to a stop. It also became difficult to turn accurately, so I implemented logic that 
+            detected when the player was trying to turn while moving and pushed the player in the direction they were trying 
+            to turn, proportional to the current movement speed. These two features made the ship significantly easier to 
+            control.
+        </p>
+    </div>
+</div>
 
 
 
