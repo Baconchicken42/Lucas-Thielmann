@@ -51,7 +51,7 @@ p{
     font-size: 20px;
     margin-bottom: 50px;
     
-    border-bottom: 3px solid #4d4d4d;
+    
 }
 
 .mywork{
@@ -184,6 +184,10 @@ p{
 
 .rounded-img{
     border-radius: 5px;
+}
+
+.bottom-divider{
+    border-bottom: 3px solid #4d4d4d;
 }
 
 
