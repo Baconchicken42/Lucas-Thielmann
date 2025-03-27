@@ -79,7 +79,7 @@
         style="float: right; margin-left: 30px;" 
         class="img-medium rounded-img">
         
-        <h2>Player Movement</h2>
+        <h2>Player Movement and Camera</h2>
         <p> 
             As lead programmer, I was responsible for designing and implementing the movement mechanics. The movement is 
             largely based off of Asteroids, with the exception that the player's momentum is preserved indefinitely, rather 
@@ -90,6 +90,10 @@
             detected when the player was trying to turn while moving and pushed the player in the direction they were trying 
             to turn, proportional to the current movement speed. These two features made the ship significantly easier to 
             control.
+            <br><br>
+            Additionally, I implemented a dynamic camera which moved ahead of the player in the direction of movement based on velocity. 
+            This provides the player with a better view of what's ahead of them when moving at high speed, while allowing them to see their 
+            surroundings better when slowing down.
         </p>
     </div>
 
