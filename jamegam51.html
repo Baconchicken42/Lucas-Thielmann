@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="./style.css" />
+
+<head>
+    <meta name="description" content="Lucas Thielmann Portfolio">
+    <title>Lucas Thielmann - Where Are My Copies?!</title>
+</head>
+
+<header style="background-image: url(images/Marooned/The_Lighthouse.jpg);">
+    <h1 style="background-color: transparent;" class="text-light">Lucas Thielmann</h1>
+    <h2 style="background-color: transparent;" class="text-light">
+        <a href="index.html" style="background-color: inherit;" class="text-light">Work</a> | <a href="about.html" style="background-color: inherit;" class="text-light">About Me</a>
+    </h2>
+</header>
+
+<body>
+<h2 class="pagetitle">Drift: Space Survival</h2>
+<h3 class="pagesubtitle">Survival Crafting Game</h3>
+<h3>Engine: Godot</h3>
+<h3 class="bottom-divider">Role: Level Designer</h3>
+
+<div style="padding-left: 10%; padding-right: 10%;">
+    <div class="row">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YdgBMXVWMHA?si=PA4tlJWsFI6yNHJR"
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen
+        style="float: right; margin-left: 30px;"></iframe>
+
+        <p>Drift is a multiplayer survival crafting game where players explore, collect resources, and build custom ships and bases.
+        <br><br>
+        I joined the Drift team in April 2025 as a Level Designer, with the goal of producing handcrafted regions for players to explore in the space explolration update of the game.
+        </p>
+    </div>
+
+    <div class="img-row">
+        <div class="img-column">
+            <img src="images/Drift/AcidDirt1.PNG">
+            <img src="images/Drift/AcidDirt2.PNG">
+            <img src="images/Drift/OvergrownMushroom1.PNG">
+        </div>
+
+        <div class="img-column">
+            <img src="images/Drift/OvergrownMushroom2.PNG">
+            <img src="images/Drift/Raceway1.PNG">
+            <img src="images/Drift/Raceway2.PNG">
+        </div>          
+    </div>
+
+    <div class="row">
+        <img src="images/Drift/AcidDirt1.PNG" 
+        alt="" 
+        style="float: left; margin-right: 30px;" 
+        class="img-medium rounded-img">
+        
+        <h2>Creating New Levels</h2>
+        <p> 
+            The space exploration update of the game will see players, having constructed a fully functional ship, warping to new regions to escape the encroaching black hole. 
+            These regions usually take the form of new asteroid fields, with a large central asteroid containing an explorable cave system.
+            <br><br>
+            The process of creating a new region starts with choosing a few of the gameplay and visual variations we came up with, and combining them. For instance, an ice-covered asteroid that uses 
+            the acid cloud and diggable dirt mechanics, or an asteroid which is overgrown and has vines that need to be cleared to progress.
+            <br><br>
+            Then, using Godot's CSG tools, I block out the interior layout of the cave. I make sure that each chamber has a unique and recognizable shape, both to add navigational variety and to 
+            ensure the player recognizes where they are in case they get turned around. 
+        </p>
+    </div>
+
+    <div class="row">
+        <img src="images/Drift/OvergrownMushroom2.PNG" 
+        alt="" 
+        style="float: right; margin-left: 30px;" 
+        class="img-medium rounded-img">
+        
+        <!-- <h2>Creating New Levels</h2> -->
+        <p> 
+            Next, I add in gameplay elements such as environmental hazards and resource deposits / loot chests. Hazards provide increased navigational challenges, and rewards incentivize the player 
+            to explore the caves thoroughly. 
+            <br><br>
+            Finally, I do an environment pass using premade rock formation and flora assets to give everything the feel of a real cave. Several of the flora give off light, so I am also carefully 
+            considering the lighting during this phase. 
+        </p>
+    </div>
+
+    <div class="row">
+        <img src="images/Drift/Raceway1.PNG" 
+        alt="" 
+        style="float: left; margin-right: 30px;" 
+        class="img-medium rounded-img">
+        
+        <h2>Scripting</h2>
+        <p> 
+            Occasionally a region requires some bespoke scripting. The region pictured here is an abandoned-but-still-functional raceway, which, when completed, gives the player access to 
+            a chest full of rare resources. To realize this, I developed a Race Manager script which made use of some existing (previously unused) racing gates.
+            <br><br> This manager keeps track of the order 
+            the gates should be crossed in, making sure the player passes through all the gates and does not activate any out of order. It also controls the color of the gates to provide a visual 
+            indicator to the player of which gate is next in the sequence, and keeps track of the amount of time the player takes to complete the race. 
+        </p>
+    </div>
+
+</div>
+</body>
+
+<footer>
+    Lucas Thielmann <br>
+    thielmlw@mail.uc.edu (preferred) <br>
+    (+1) 513-767-1065 <br>
+    Website created by me using HTML/CSS<br>
+</footer>
+
+</html>
