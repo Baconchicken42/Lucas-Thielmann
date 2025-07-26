@@ -54,7 +54,15 @@
         
         <h2>Development</h2>
         <p> 
-            
+            During this project, I made sure to leverage inheritance and polymorphism as much as possible. Everything the player can interact with derives from a base "Interactible" class, 
+            which the player script is always sending out a boxcast to detect. When the player presses the interact key, the interact() method is called, which then executes the appropriate logic 
+            based on what kind of interactible the player is in front of. The copiers and employees both inherit directly from Interactible, while documents, ink jars, and paper refills inherit 
+            from a further subclass called Pickup, which defines an interactible that can be added to the player's inventory. 
+            <br><br>
+            I also made sure to allow for scripting from the editor without having to write any code. I created an Ordermanager script which has a public list of Orders, which allowed me to 
+            manually determine when employees would request new documents and what kind of documents they would be. In addition, I made sure that each script had public events which could be 
+            subscribed to through code or the editor. My primary intention for these was to be able to set up sound effects and potentially other events from the editor, although we ended up 
+            not having enough time to implement these. 
         </p>
     </div>
 
