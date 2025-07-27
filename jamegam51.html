@@ -7,7 +7,7 @@
     <title>Lucas Thielmann - Where Are My Copies?!</title>
 </head>
 
-<header style="background-image: url(images/JameGam51/WAMC_banner.png);">
+<header style="background-image: url(images/JameGam51/KeyRender.png);">
     <h1 style="background-color: transparent;" class="text-light">Lucas Thielmann</h1>
     <h2 style="background-color: transparent;" class="text-light">
         <a href="index.html" style="background-color: inherit;" class="text-light">Work</a> | <a href="about.html" style="background-color: inherit;" class="text-light">About Me</a>
@@ -32,7 +32,7 @@
         allowfullscreen
         style="float: right; margin-left: 30px;"></iframe>
 
-        <p>Where Are My Copies?! is a short game I developed for Jame Gam #51. I worked as the sole programmer (alongisde an artist), and we completed the game in a 1-week timeframe.
+        <p>Where Are My Copies?! is a short game I developed for Jame Gam #51. I worked as the sole programmer (alongside an artist), and we completed the game in a 1-week timeframe.
             <br><br>
             The game is about an office worker who has to run around copying documents for his colleagues. We took a lot of inspiration from Overcooked's gameplay, 
             with the variation that instead of collecting "ingredients" for the documents, the player has to maintain the copiers by refilling them with ink and paper.
@@ -63,6 +63,21 @@
             manually determine when employees would request new documents and what kind of documents they would be. In addition, I made sure that each script had public events which could be 
             subscribed to through code or the editor. My primary intention for these was to be able to set up sound effects and potentially other events from the editor, although we ended up 
             not having enough time to implement these. 
+        </p>
+    </div>
+
+    <div class="row">
+        <img src="images/Drift/AcidDirt1.PNG" 
+        alt="" 
+        style="float: right; margin-left: 30px;" 
+        class="img-medium rounded-img">
+        
+        <h2>Polish</h2>
+        <p> 
+            My main instrument for adding polish was a tool called DOTween, which adds a bunch of functions for linearly interpolating various values over time. This let me create procedural 
+            animations through code. I used this to handle grabbing / dropping pickups, and also added some scale tweens in the UI to make it feel smoother. Another important element of polish was 
+            making sure that the player rotated smoothly in the direction of movement, rather than instantly turning in that direction. Finally, I made sure to add an outline shader to all 
+            interactibles, in order to visually indicate when the player is in range to interact with them.
         </p>
     </div>
 
