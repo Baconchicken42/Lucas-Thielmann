@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="./style.css" />
+
+<head>
+    <meta name="description" content="Lucas Thielmann Portfolio">
+    <title>Lucas Thielmann - Where Are My Copies?!</title>
+</head>
+
+<header style="background-image: url(images/JameGam51/KeyRender.png);">
+    <h1 style="background-color: transparent;" class="text-light">Lucas Thielmann</h1>
+    <h2 style="background-color: transparent;" class="text-light">
+        <a href="index.html" style="background-color: inherit;" class="text-light">Work</a> | <a href="about.html" style="background-color: inherit;" class="text-light">About Me</a>
+    </h2>
+</header>
+
+<body>
+<h2 class="pagetitle">Where Are My Copies?!</h2>
+<h3 class="pagesubtitle">Game Jam Project</h3>
+<h3>Engine: Unity</h3>
+<h3>Language: C#</h3>
+<h3>Time Spent: 1 week (July 13 - 20 2025)</h3>
+<h3 class="bottom-divider">Role: Solo Programmer</h3>
+
+<div style="padding-left: 10%; padding-right: 10%;">
+    <div class="row">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mQgYdTQRCQ4?si=d7wibAWejtO8cSyI"
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen
+        style="float: right; margin-left: 30px;"></iframe>
+
+        <p>
+        </p>
+    </div>
+
+    <div class="row">
+        <img src="images/JameGam51/code_diagram_jg51.png" 
+        alt="" 
+        style="float: left; margin-right: 30px;" 
+        class="img-medium rounded-img">
+        
+        <h2>Development</h2>
+        <p> 
+            
+        </p>
+    </div>
+</div>
+
+<footer>
+    Lucas Thielmann <br>
+    thielmlw@mail.uc.edu (preferred) <br>
+    (+1) 513-767-1065 <br>
+    Website created by me using HTML/CSS<br>
+</footer>
+
+</html>
