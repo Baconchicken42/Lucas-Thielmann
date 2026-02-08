@@ -43,14 +43,23 @@
     </div>
 
     <div class="row">
-        <img src="images/JameGam51/code_diagram_jg51.png" 
+        <!-- <img src="images/JameGam51/code_diagram_jg51.png" 
         alt="" 
         style="float: left; margin-right: 30px;" 
-        class="img-medium rounded-img">
+        class="img-medium rounded-img"> -->
         
         <h2>Development</h2>
         <p> 
-            
+            The programming for this project wasn't too complex by itself (by design). Because not everyone on our team was experienced with Unity, I focused 
+            on making sure that things operated smoothly and intuitively for my teammates. A few key elements contributed to this: 
+            <ul>
+                <li><u>Standard Public Functions</u> - I made sure that the GameManager script had many exposed public functions for standard tasks, to ease the 
+                burden on the other programmer, and to provide accessible functions for our UI designer to access in-editor via Unity Events. I also made sure that 
+                the GameManager was a singleton with references to the player and boss, so we could access them without having to make costly GetComponent calls.</li>
+                <li><u>Avoiding Git Conflicts</u> - I managed separate branches for ongoing tasks and merged them as needed. I also ensured that everyone was working 
+                in different scenes or prefabs within Unity to minimize problems.</li>
+                <li><u>Task Board</u> - I organized a kanban board using Trello so everyone could see what tasks remained and how to prioritize them.</li>
+            </ul>
         </p>
     </div>
 </div>
