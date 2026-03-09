@@ -18,7 +18,8 @@
 <h2 class="pagetitle">Drift: Space Survival</h2>
 <h3 class="pagesubtitle">Survival Crafting Game</h3>
 <h3>Engine: Godot</h3>
-<h3 class="bottom-divider">Role: Level Designer</h3>
+<h3>Role: Level Designer</h3>
+<h3 class="bottom-divider">April 2025 - Present</h3>
 
 <div style="padding-left: 10%; padding-right: 10%;">
     <div class="row">
@@ -32,7 +33,12 @@
 
         <p>Drift is a multiplayer survival crafting game where players explore, collect resources, and build custom ships and bases.
         <br><br>
-        I joined the Drift team in April 2025 as a Level Designer, with the goal of producing handcrafted regions for players to explore in the space explolration update of the game.
+        I joined the Drift team in April 2025 as a Level Designer, with the goal of producing handcrafted regions for players to explore in the 1.0 update of the game. 
+        The final version of the game will see players piloting a fully buildable ship, warping into unique explorable regions in order to gather resources to upgrade the ship. 
+        These regions vary in size and theme greatly, from wide-open asteroid caves to cramped abandoned structures. Each level was constructed by me using premade assets and 
+        Godot's CSG modeling tools.
+        <br><br>
+        Below you'll find a brief description of every level I've created so far.
         </p>
     </div>
 
@@ -51,53 +57,141 @@
     </div>
 
     <div class="row">
-        <img src="images/Drift/AcidDirt1.PNG" 
+        <img src="images/Drift/IcyMoonScrap.png" 
         alt="" 
         style="float: left; margin-right: 30px;" 
-        class="img-medium rounded-img">
+        class="img-large rounded-img">
         
-        <h2>Creating New Levels</h2>
+        <h2>Icy Moon</h2>
         <p> 
-            The space exploration update of the game will see players, having constructed a fully functional ship, warping to new regions to escape the encroaching black hole. 
-            These regions usually take the form of new asteroid fields, with a large central asteroid containing an explorable cave system.
-            <br><br>
-            The process of creating a new region starts with choosing a few of the gameplay and visual variations we came up with, and combining them. For instance, an ice-covered asteroid that uses 
-            the acid cloud and diggable dirt mechanics, or an asteroid which is overgrown and has vines that need to be cleared to progress.
-            <br><br>
-            Then, using Godot's CSG tools, I block out the interior layout of the cave. I make sure that each chamber has a unique and recognizable shape, both to add navigational variety and to 
-            ensure the player recognizes where they are in case they get turned around. 
+            The desolate site of a ship which has crash-landed into an outpost belonging to an unknown civilization. 
+            Investigating the ice caves within reveals mining of a valuable resource.
         </p>
     </div>
 
     <div class="row">
-        <img src="images/Drift/OvergrownMushroom2.PNG" 
+        <img src="images/Drift/OvergrownMushroom1.PNG" 
         alt="" 
         style="float: right; margin-left: 30px;" 
-        class="img-medium rounded-img">
+        class="img-large rounded-img">
         
-        <!-- <h2>Creating New Levels</h2> -->
+        <h2>Overgrown Giant Mushroom</h2>
         <p> 
-            Next, I add in gameplay elements such as environmental hazards and resource deposits / loot chests. Hazards provide increased navigational challenges, and rewards incentivize the player 
-            to explore the caves thoroughly. 
-            <br><br>
-            Finally, I do an environment pass using premade rock formation and flora assets to give everything the feel of a real cave. Several of the flora give off light, so I am also carefully 
-            considering the lighting during this phase. 
+            A massive, luminant fungus growing from within an asteroid. Following the roots through the overgrown tunnels 
+            reveals the source of nutrition. 
+        </p>
+    </div>
+
+    <div class="row">
+        <img src="images/Drift/InternalOutpost.png" 
+        alt="" 
+        style="float: left; margin-right: 30px;" 
+        class="img-large rounded-img">
+        
+        <h2>Internal Outpost</h2>
+        <p> 
+            A cramped network of caves which at first seems innocuous, but descending further uncovers an alien facility.
         </p>
     </div>
 
     <div class="row">
         <img src="images/Drift/Raceway1.PNG" 
         alt="" 
-        style="float: left; margin-right: 30px;" 
-        class="img-medium rounded-img">
+        style="float: right; margin-left: 30px;" 
+        class="img-large rounded-img">
         
-        <h2>Scripting</h2>
+        <h2>Abandoned Raceway</h2>
         <p> 
-            Occasionally a region requires some bespoke scripting. The region pictured here is an abandoned-but-still-functional raceway, which, when completed, gives the player access to 
-            a chest full of rare resources. To realize this, I developed a Race Manager script which made use of some existing (previously unused) racing gates.
-            <br><br> This manager keeps track of the order 
-            the gates should be crossed in, making sure the player passes through all the gates and does not activate any out of order. It also controls the color of the gates to provide a visual 
-            indicator to the player of which gate is next in the sequence, and keeps track of the amount of time the player takes to complete the race. 
+            A former hub of entertainment, which now lies dormant. The inhabitants evacuated in a hurry, leaving behind 
+            various odds and ends, as well as a valuable ship upgrade, meant as a prize for the race champion.
+        </p>
+    </div>
+
+    <div class="row">
+        <img src="images/Drift/ExplodedOutpost.png" 
+        alt="" 
+        style="float: left; margin-right: 30px;" 
+        class="img-large rounded-img">
+        
+        <h2>Exploded Outpost</h2>
+        <p> 
+            Another alien structure, or what's left of one. Whatever happened here scattered the asteroid as well as the facility 
+            itself all over the area.
+        </p>
+    </div>
+
+    <div class="row">
+        <img src="images/Drift/AcidDirt1.PNG" 
+        alt="" 
+        style="float: right; margin-left: 30px;" 
+        class="img-large rounded-img">
+        
+        <h2>Acid Dirt</h2>
+        <p> 
+            Naturally formed ice caves, the frozen water a source of nourishment for deadly acid-spewing plants. Dirt has filled 
+            some of the tunnels.
+        </p>
+    </div>
+
+    <div class="row">
+        <img src="images/Drift/RootIslands.png" 
+        alt="" 
+        style="float: left; margin-right: 30px;" 
+        class="img-large rounded-img">
+        
+        <h2>Root Islands</h2>
+        <p> 
+            A large fungal root system embedded in a large asteroid, extending out to the edges of the asteroid field.
+        </p>
+    </div>
+
+    <div class="row">
+        <img src="images/Drift/SuspendedOutpost.png" 
+        alt="" 
+        style="float: right; margin-left: 30px;" 
+        class="img-large rounded-img">
+        
+        <h2>Suspended Outpost</h2>
+        <p> 
+            An alien outpost constructed in low orbit around a sun, in order to harvest material from a gigantic crystal. 
+        </p>
+    </div>
+
+    <div class="row">
+        <img src="images/Drift/AbandonedNeighborhood.png" 
+        alt="" 
+        style="float: left; margin-right: 30px;" 
+        class="img-large rounded-img">
+        
+        <h2>Abandoned Neighborhood</h2>
+        <p> 
+            An empty colony. Fully self-sufficient with its own living quarters, research facility, food production, and factory.
+        </p>
+    </div>
+
+    <div class="row">
+        <img src="images/Drift/WormNest.png" 
+        alt="" 
+        style="float: right; margin-left: 30px;" 
+        class="img-large rounded-img">
+        
+        <h2>Worm Nest</h2>
+        <p> 
+            A cluster of asteroids which serves as home base for some truly massive worms, which don't take kindly to visitors. 
+            Anyone finding themselves here would do well to take advantage of the smaller tunnels in the rock.
+        </p>
+    </div>
+
+    <div class="row">
+        <img src="images/Drift/GenesisCave1.png" 
+        alt="" 
+        style="float: left; margin-right: 30px;" 
+        class="img-large rounded-img">
+        
+        <h2>Genesis Cave</h2>
+        <p> 
+            A basic asteroid with resources and flora within. This level was an early prototype region which I did an art pass on 
+            to bring up to the standard of the other levels.
         </p>
     </div>
 

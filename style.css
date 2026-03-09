@@ -172,6 +172,11 @@ li{
     height: auto;
 }
 
+.img-large{
+    max-width: 55%;
+    height: auto;
+}
+
 .transparent{
     background-color: transparent;
 }
