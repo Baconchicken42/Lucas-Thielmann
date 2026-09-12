@@ -4,3 +4,4 @@ separate personal and work projects on main somehow
 resume page -- done
 wire up resume page --done
 update resume (drift programming and greylock role)
+fix weird scaling on card titles
