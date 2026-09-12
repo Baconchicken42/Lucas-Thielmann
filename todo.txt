@@ -2,5 +2,5 @@ greylock page -- done
 update drift page with programming work
 separate personal and work projects on main somehow
 resume page -- done
-wire up resume page
+wire up resume page --done
 update resume (drift programming and greylock role)
